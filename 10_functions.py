@@ -45,3 +45,9 @@ def print_texts(*text): #el asterisco hace que puedas pasarle la cantidad de dat
     print(text)
 
 print_texts('Hola', 'python', 'mundo')
+
+def print_texts_new(*texts):
+    for text in texts:
+        print(text)
+
+print_texts_new('Hola', 'python', 'mundo') #imprime como una lista de textos
